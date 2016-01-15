@@ -6,4 +6,8 @@
  * Time: 12:36
  */
 
-echo "Hello from my site!";
+
+require('../bootstrap.php');
+require('../routes.php');
+
+$router->dispatch();
